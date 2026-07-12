@@ -1,49 +1,36 @@
-# Smart Diabetic Wound Monitoring Patch Website
+FYP PORTFOLIO — COMPLETE WEEKS 07–10 UPDATE
+================================================
 
-This is the corrected GitHub Pages website package for the FYP portfolio.
+This package combines the final Week 07, Week 08, Week 09 and Week 10 updates.
+It is intended to update the existing GitHub Pages portfolio without replacing
+or editing the current HTML, CSS, script.js, Week 01–06 content, or Week 11–14 placeholders.
 
-## What is included
+UPLOAD STEPS
+1. Open the GitHub repository: Fsv4-V/FYP-E-21-430
+2. Replace the repository-root data.js with the data.js in this package.
+3. Upload these four complete folders inside the existing assets folder:
+      assets/week07
+      assets/week08
+      assets/week09
+      assets/week10
+4. Keep the folder names and filenames exactly unchanged.
+5. Commit the changes and wait for GitHub Pages to redeploy.
+6. Refresh the website using Ctrl+F5.
 
-- `index.html`
-- `style.css`
-- `script.js`
-- `data.js`
-- `.nojekyll`
-- `assets/week-01.svg` to `assets/week-14.svg`
+FILES REQUIRED BY THE WEBSITE
+- data.js
+- assets/week07/*
+- assets/week08/*
+- assets/week09/*
+- assets/week10/*
 
-## Corrections included
+The reports folder is included for convenient supervisor access and record keeping.
+It is not necessary to upload reports/ unless you want that separate archive online.
+The Week 10 report already exists inside assets/week10 because data.js links to it.
 
-- Fixed JavaScript syntax issues in `data.js`.
-- Added Week 06 data and Drive link.
-- Added weekly work-focus title display.
-- Added a visual image for every week card.
-- Updated the weekly timeline so Weeks 01–06 are completed/documented and Weeks 07–14 are coming soon.
-- Added responsive layout for mobile and desktop.
-- Kept the project content, supervisor names, contact email and Drive links from the provided data file.
+FINAL JOURNEY HEADING
+Documentation Journey · Weeks 01–10
 
-## How to upload to GitHub
-
-1. Extract this ZIP.
-2. Open your GitHub repo: `Fsv4-V/FYP-E-21-430`.
-3. Upload/replace these files in the root of the repo:
-   - `index.html`
-   - `style.css`
-   - `script.js`
-   - `data.js`
-   - `.nojekyll`
-   - `README.md`
-4. Upload the full `assets` folder.
-5. Commit changes.
-6. Wait for GitHub Pages deployment.
-7. Open the website and press `Ctrl + F5`.
-
-## How to replace generated images with real evidence images
-
-Replace files in `/assets` using the same names:
-
-- `week-01.svg`
-- `week-02.svg`
-- ...
-- `week-14.svg`
-
-You can replace them with `.png` or `.jpg`, but then update the filenames inside `WEEK_MEDIA` at the bottom of `data.js`.
+IMPORTANT REPORTING BOUNDARY
+Week 10 records engineering design, fabrication preparation and laboratory planning.
+It does not claim completed fabrication, sensor calibration, human testing or clinical validation.
